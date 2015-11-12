@@ -1,0 +1,22 @@
+{
+  "name": "timeout-sort",
+  "version": "0.0.1",
+  "description": "Timeout sort is an asynchronous integer sorting algorithm. It can sort all integers with O(max(input)+n).",
+  "main": "index.js",
+  "scripts": {
+    "test": "iojs --use_strict --harmony_classes ./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aeharding/timeout-sort.git"
+  },
+  "author": "Alexander Harding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aeharding/timeout-sort/issues"
+  },
+  "homepage": "https://github.com/aeharding/timeout-sort",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
